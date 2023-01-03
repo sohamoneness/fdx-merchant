@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/navDashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Dashboard"
+            android:checked="true"/>
+        <item android:id="@+id/navOrder"
+            android:icon="@drawable/ic_order_management"
+            android:title="Order Management"
+            />
+        <!--<item android:id="@+id/navCategory"
+            android:icon="@drawable/ic_item"
+            android:title="Category Management"
+            android:visible="true"
+            />-->
+        <item android:id="@+id/navItem"
+            android:icon="@drawable/ic_item"
+            android:title="Category &amp; Item Management"
+            android:visible="true"
+            />
+        <item android:id="@+id/navCupon"
+            android:icon="@drawable/ic_coupon"
+            android:title="Cupon Management" />
+
+        <item android:id="@+id/navIncome"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Income &amp; Commision list"
+            android:visible="false"
+            />
+        <item android:id="@+id/navReports"
+            android:icon="@drawable/ic_report"
+            android:title="Reports"
+            android:visible="true"
+            />
+        <item android:id="@+id/navNotification"
+            android:icon="@drawable/ic_noti"
+            android:title="Notification Management"
+
+            />
+        <item android:id="@+id/navChangePsw"
+            android:icon="@drawable/ic_lock"
+            android:title="Change Password"
+
+            />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/navSlot"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Slot Management"
+            android:visible="false"
+            />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/navReqDel"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Request Delivery to Admin"
+            android:visible="false"
+            />
+    </group>
+
+
+    <!--<group android:checkableBehavior="single" android:menuCategory="container"
+        >
+        <item android:id="@+id/navLogout"
+            android:icon="@drawable/ic_logout"
+            android:title="Log Out"
+            />
+
+    </group>-->
+</menu>

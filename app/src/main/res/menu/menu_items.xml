@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/minOrder"
+        android:icon="@drawable/ic_order_management"
+        android:title="Manage Minimum Orders"
+        />
+    <item android:id="@+id/maxTime"
+        android:icon="@drawable/ic_order_management"
+        android:title="Manage Estimate preparation time"
+        />
+
+</menu>

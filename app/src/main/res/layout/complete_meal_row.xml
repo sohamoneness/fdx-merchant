@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:layout_height="140dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/refer_dash_bg"
+    android:layout_margin="8dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/ivFoodImg"
+        app:srcCompat="@drawable/pop_rest_demo_img"
+        android:scaleType="fitXY"
+        app:shapeAppearanceOverlay="@style/roundedCornersImageView"/>
+
+    <TextView
+        android:id="@+id/tvItem"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_below="@+id/ivFoodImg"
+        android:layout_marginTop="8dp"
+        android:text="Veg Spring Roll"
+        android:layout_marginLeft="8dp"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tvItem"
+        android:text="₹ 249"
+        android:layout_marginLeft="8dp"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+
+
+</RelativeLayout>

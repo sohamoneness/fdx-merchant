@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "942237899306",
+    "project_id": "fdx-restaurant",
+    "storage_bucket": "fdx-restaurant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942237899306:android:edb6b52d68790ab7714153",
+        "android_client_info": {
+          "package_name": "com.oneness.fdxmerchant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942237899306-p138vo2s13qjvdrpjikfbu9js5nro3v7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQnjtvfvH8OzRdVhlsfuYdSzok0ruuisE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942237899306-p138vo2s13qjvdrpjikfbu9js5nro3v7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,71 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="roundedCornersImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="specific_rounded_corner" parent="">
+        <item name="cornerFamilyTopLeft">rounded</item>
+        <item name="cornerSizeTopLeft">4dp</item>
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerSizeTopRight">4dp</item>
+    </style>
+
+    <style name="circularImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">100dp</item>
+    </style>
+
+    <style name="mySpinnerItemStyle" parent="Base.Widget.AppCompat.Spinner">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+    <style name="customRatingBar"
+        parent="android:style/Widget.Material.RatingBar.Small">
+        <item name="android:width">16dp</item>
+        <item name="android:height">16dp</item>
+    </style>
+
+    <style name="customRatingBarBig"
+        parent="android:style/Widget.Material.RatingBar.Small">
+        <item name="android:scaleX">0.5</item>
+        <item name="android:scaleY">0.5</item>
+    </style>
+    <style name="RatingBarColor" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#fff29d38</item>
+        <item name="colorControlActivated">#fff29d38</item>
+        <item name="strokeColor">#fff29d38</item>
+    </style>
+
+    <style name="AppTheme.ActionBar" parent="Widget.AppCompat.Light.ActionBar">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+    </style>
+
+
+    <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="ThemeOverlay.AppCompat.navTheme">
+
+        <!-- Color of text and icon when SELECTED -->
+        <item name="colorPrimary" >@color/black</item>
+
+        <!-- Background color when SELECTED -->
+        <!--<item name="colorControlHighlight">@color/color_of_your_choice</item>-->
+
+    </style>
+
+
+</resources>
